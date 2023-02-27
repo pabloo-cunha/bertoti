@@ -29,4 +29,4 @@ em função do objetivo que ele estará sendo implantado, tomar decisões comple
 
 2.2 - Os requisitos, o que não estão relacionados ao aspecto funcional do software, se enquadram nesta categoria. Eles estão implícitos ou esperar as características do software, que permite aos utilizadores fazer suposição.
 
-2.3 - 
+2.3 - Desempenho vs. Usabilidade, Segurança vs. Acessibilidade.
