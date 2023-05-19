@@ -1,13 +1,22 @@
 package academia;
 
 import java.time.LocalTime;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Aula {
     private String modalidade;
-    private LocalTime horario;
-    private final int maxAlunos = 15;
-    private List<Usuario> inscricoes;
+    private String horario;
+    private static final int maxAlunos = 15;
+    private static List<Usuario> inscricoes = new ArrayList<>();
+
+    public Aula() {
+    }
+
+    public Aula(String modalidade, String horario) {
+        this.modalidade = modalidade;
+        this.horario = horario;
+    }
 
     public String getModalidade() {
         return modalidade;
@@ -17,11 +26,11 @@ public class Aula {
         this.modalidade = modalidade;
     }
 
-    public LocalTime getHorario() {
+    public String getHorario() {
         return horario;
     }
 
-    public void setHorario(LocalTime horario) {
+    public void setHorario(String horario) {
         this.horario = horario;
     }
 
@@ -45,7 +54,7 @@ public class Aula {
         inscricoes.remove(nome);
     }
 
-    public boolean verificarDisponibilidade(){
+    public static boolean verificarDisponibilidade(){
         return inscricoes.size() < maxAlunos;
     }
 }

@@ -15,6 +15,9 @@ public class Usuario {
         this.metaDePeso = metaDePeso;
     }
 
+    public Usuario() {
+    }
+
     public String getNome(){
         return nome;
     }
