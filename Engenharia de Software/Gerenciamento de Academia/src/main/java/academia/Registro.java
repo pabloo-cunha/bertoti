@@ -6,6 +6,9 @@ public class Registro {
     private String modalidade;
     private String duracao;
 
+    public Registro() {
+    }
+
     public Registro(Usuario usuario, String horarioDeRegistro, String modalidade, String duracao) {
         this.usuario = usuario;
         this.horarioDeRegistro = horarioDeRegistro;
@@ -13,8 +16,6 @@ public class Registro {
         this.duracao = duracao;
     }
 
-    public Registro() {
-    }
 
     public Usuario getUsuario() {
         return usuario;
