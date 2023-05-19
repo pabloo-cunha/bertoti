@@ -2,13 +2,15 @@ package academia;
 
 import java.time.LocalTime;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
+import java.util.Objects;
 
 public class Aula {
     private String modalidade;
     private String horario;
-    private static final int maxAlunos = 15;
-    private static List<Usuario> inscricoes = new ArrayList<>();
+    private final int maxAlunos = 4;
+    private List<Usuario> inscricoes = new ArrayList<>();
 
     public Aula() {
     }
@@ -42,19 +44,16 @@ public class Aula {
         return inscricoes;
     }
 
-    public void setInscricoes(List<Usuario> inscricoes) {
-        this.inscricoes = inscricoes;
-    }
-
     public void inscreverUsuario(Usuario nome){
         inscricoes.add(nome);
     }
 
     public void cancelarInscricao(Usuario nome){
         inscricoes.remove(nome);
+        inscricoes.removeAll(Collections.singleton(null));
     }
 
-    public static boolean verificarDisponibilidade(){
+    public boolean verificarDisponibilidade(){
         return inscricoes.size() < maxAlunos;
     }
 }
