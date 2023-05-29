@@ -40,13 +40,13 @@ class AulaTest {
 
     @Test
     void getMaxAlunos() {
-        assertEquals(15, aula.getMaxAlunos());
+        assertEquals(4, aula.getMaxAlunos());
     }
 
     @Test
     void getInscricoes() {
         Usuario usuario = new Usuario("Pablo", 27, 1.65, 65.5, 70);
-        aula.inscreverUsuario(usuario);
+        aula.inscreverUsuarioNaAula(usuario);
         List<Usuario> encontrados = aula.getInscricoes();
         assertEquals(1, encontrados.size());
     }
@@ -54,18 +54,18 @@ class AulaTest {
     @Test
     void inscreverUsuario() {
         Usuario usuario = new Usuario("Pablo", 27, 1.65, 65.5, 70);
-        aula.inscreverUsuario(usuario);
+        aula.inscreverUsuarioNaAula(usuario);
         assertEquals("Pablo", usuario.getNome());
     }
 
     @Test
     void cancelarInscricao() {
         Usuario usuario = new Usuario("Pablo", 27, 1.65, 65.5, 70);
-        aula.inscreverUsuario(usuario);
+        aula.inscreverUsuarioNaAula(usuario);
         List<Usuario> encontrados = aula.getInscricoes();
         assertEquals(1, encontrados.size());
 
-        aula.cancelarInscricao(usuario);
+        aula.cancelarInscricaoDaAula(usuario);
         List<Usuario> excluindo = aula.getInscricoes();
         assertEquals(0, excluindo.size());
     }
@@ -77,10 +77,10 @@ class AulaTest {
         Usuario usuario2 = new Usuario("Pablo", 27, 1.65, 65.5, 70);
         Usuario usuario3 = new Usuario("Pablo", 27, 1.65, 65.5, 70);
         Usuario usuario4 = new Usuario("Pablo", 27, 1.65, 65.5, 70);
-        aula.inscreverUsuario(usuario);
-        aula.inscreverUsuario(usuario2);
-        aula.inscreverUsuario(usuario3);
-        aula.inscreverUsuario(usuario4);
+        aula.inscreverUsuarioNaAula(usuario);
+        aula.inscreverUsuarioNaAula(usuario2);
+        aula.inscreverUsuarioNaAula(usuario3);
+        aula.inscreverUsuarioNaAula(usuario4);
 
 
         boolean disponibilidade = aula.verificarDisponibilidade();

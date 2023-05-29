@@ -1,10 +1,8 @@
 package academia;
 
-import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.Objects;
 
 public class Aula {
     private String modalidade;
@@ -44,12 +42,12 @@ public class Aula {
         return inscricoes;
     }
 
-    public void inscreverUsuario(Usuario nome){
-        inscricoes.add(nome);
+    public void inscreverUsuarioNaAula(Usuario usuario){
+        inscricoes.add(usuario);
     }
 
-    public void cancelarInscricao(Usuario nome){
-        inscricoes.remove(nome);
+    public void cancelarInscricaoDaAula(Usuario usuario){
+        inscricoes.remove(usuario);
         inscricoes.removeAll(Collections.singleton(null));
     }
 
