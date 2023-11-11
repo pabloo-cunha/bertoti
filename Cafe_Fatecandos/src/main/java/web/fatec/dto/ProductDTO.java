@@ -6,8 +6,9 @@ import jakarta.validation.constraints.NotNull;
 import java.math.BigDecimal;
 
 public record ProductDTO(
-        @NotBlank String titulo,
+        @NotBlank String title,
         String description,
-        @NotBlank String intensidade,
-        @NotNull BigDecimal price) {
+        @NotBlank String intensity,
+        @NotNull BigDecimal price)
+{
 }
