@@ -1,5 +1,6 @@
 package web.fatec.entities;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -21,16 +22,15 @@ public class UserModel {
     private String name;
     private String lastName;
     private String cpf;
+    @JsonFormat(pattern = "dd/MM/yyyy")
     private LocalDate birthDate;
 
-    public UserModel(Long idUser, String nome, String lastName, String cpf, String birthDate) {
+    public UserModel(Long idUser, String nome, String lastName, String cpf, LocalDate birthDate) {
         this.idUser = idUser;
         this.name = nome;
         this.lastName = lastName;
         this.cpf = cpf;
-
-        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-        this.birthDate = LocalDate.parse(birthDate, dtf);
+        this.birthDate = birthDate;
     }
 
     public UserModel() {
