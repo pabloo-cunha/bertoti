@@ -16,7 +16,7 @@ public class ProductModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id_user;
+    private Long id_product;
     private String title;
     private String description;
     private String intensity;
@@ -25,8 +25,8 @@ public class ProductModel {
     public ProductModel() {
     }
 
-    public ProductModel(Long id_usuario, String titulo, String descricao, String intensidade, BigDecimal preco) {
-        this.id_user = id_usuario;
+    public ProductModel(Long id_product, String titulo, String descricao, String intensidade, BigDecimal preco) {
+        this.id_product = id_product;
         this.title = titulo;
         this.description = descricao;
         this.intensity = intensidade;
