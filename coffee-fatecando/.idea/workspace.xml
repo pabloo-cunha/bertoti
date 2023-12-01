@@ -4,60 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="028e5c88-67a4-43d8-b34d-1e53c596a1eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Cafe_Fatecandos/src/main/java/web/fatec/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cafe_Fatecandos/src/main/java/web/fatec/dto/OrderDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cafe_Fatecandos/src/main/java/web/fatec/entities/CartShoppingModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cafe_Fatecandos/src/main/java/web/fatec/entities/OrderModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cafe_Fatecandos/src/main/java/web/fatec/repository/CartShoppingRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cafe_Fatecandos/src/main/java/web/fatec/repository/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cafe_Fatecandos/src/main/java/web/fatec/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cafe_Fatecandos/src/main/java/web/fatec/service/impl/OrderServiceImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../coffee-fatecando.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/AlbedoBase_XL_coffee_beans_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/AlbedoBase_XL_coffee_beans_cup_of_hot_coffee_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/Leonardo_Diffusion_XL_Coffee_Shop_University_Studies_Birds_Tre_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/Leonardo_Diffusion_XL_Coffee_Shop_University_Studies_Birds_Tre_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/Leonardo_Vision_XL_Coffee_Shop_University_Studies_Birds_Trees_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/Leonardo_Vision_XL_Coffee_Shop_University_Studies_Birds_Trees_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/Leonardo_Vision_XL_Coffee_Shop_University_Studies_Birds_Trees_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/Products/Café Especial - Dópio.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/Products/Café Especial - Serra D'agua.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/Products/Café Gourmet - Serra da Canastra.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/Products/Dópio2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/Products/Dópio3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/icon-cart-shopping.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/icon-cart-shopping2-removebg-preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/icon-cart-shopping2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/HomePage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/MainPainel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cafe_Fatecandos/Cafe_Fatecandos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Cafe_Fatecandos/Cafe_Fatecandos.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cafe_Fatecandos/src/main/java/web/fatec/entities/ProductModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Cafe_Fatecandos/src/main/java/web/fatec/entities/ProductModel.java" afterDir="false" />
+    <list default="true" id="028e5c88-67a4-43d8-b34d-1e53c596a1eb" name="Changes" comment=":front: primeiro commit do front">
+      <change afterPath="$PROJECT_DIR$/src/Forms/ProductForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cafe_Fatecandos/src/main/java/web/fatec/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Cafe_Fatecandos/src/main/java/web/fatec/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cafe_Fatecandos/src/main/java/web/fatec/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Cafe_Fatecandos/src/main/java/web/fatec/repository/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cafe_Fatecandos/src/main/java/web/fatec/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Cafe_Fatecandos/src/main/java/web/fatec/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cafe_Fatecandos/src/main/java/web/fatec/service/impl/OrderServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Cafe_Fatecandos/src/main/java/web/fatec/service/impl/OrderServiceImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cafe_Fatecandos/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Cafe_Fatecandos/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/MainPainel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/MainPainel.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,14 +90,40 @@
       <option name="presentableId" value="Default" />
       <updated>1700061471209</updated>
       <workItem from="1700061472200" duration="8992000" />
-      <workItem from="1700178391897" duration="7774000" />
+      <workItem from="1700178391897" duration="11601000" />
+      <workItem from="1700611548223" duration="1209000" />
+      <workItem from="1700782148819" duration="11000" />
+      <workItem from="1701129333423" duration="2098000" />
+      <workItem from="1701472200605" duration="25000" />
     </task>
+    <task id="LOCAL-00001" summary=":front: primeiro commit do front">
+      <option name="closed" value="true" />
+      <created>1700269413617</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700269413618</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value=":front: primeiro commit do front" />
+    <option name="LAST_COMMIT_MESSAGE" value=":front: primeiro commit do front" />
   </component>
 </project>

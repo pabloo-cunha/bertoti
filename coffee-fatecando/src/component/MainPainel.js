@@ -2,14 +2,14 @@ import React, {useEffect, useState} from 'react';
 import axios from "axios";
 
 const MainPanel = () => {
-    const [produtos, setProdutos] = useState([]);
-    useEffect(() =>
-    const fecthData = async() => {
-        try{
-            const response = await axios.post()
-        }
-    }
-    )
+    // const [produtos, setProdutos] = useState([]);
+    // useEffect(() =>
+    // const fecthData = async() => {
+    //     try{
+    //         const response = await axios.post()
+    //     }
+    // }
+    // )
     const panelStyles = {
         backgroundColor: 'rgba(0, 0, 0, 0.5)', // Ajuste a transparência aqui
         padding: '20px',
