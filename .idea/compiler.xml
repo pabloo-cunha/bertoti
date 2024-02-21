@@ -10,5 +10,8 @@
         <module name="Condominio" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Pattern-Strategy" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
