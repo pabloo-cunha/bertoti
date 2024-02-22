@@ -1,63 +1,61 @@
-import React, {useEffect, useState} from 'react';
-import axios from "axios";
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 
 const MainPanel = () => {
-    // const [produtos, setProdutos] = useState([]);
-    // useEffect(() =>
-    // const fecthData = async() => {
-    //     try{
-    //         const response = await axios.post()
-    //     }
-    // }
-    // )
-    const panelStyles = {
-        backgroundColor: 'rgba(0, 0, 0, 0.5)', // Ajuste a transparência aqui
-        padding: '20px',
-        borderRadius: '10px',
-        margin: '20px',
-        boxShadow: '0px 0px 20px rgba(0, 0, 0, 0.3)', // Efeito de sombra para dar aparência 3D
-        color: 'white', // Cor do texto para contraste
+  const [produtos, setProdutos] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
 
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get('https://localhost:8080/products'); // Substitua pela sua URL de API
+        setProdutos(response.data);
+        setIsLoading(false);
+      } catch (error) {
+        console.error('Erro ao obter dados da API', error);
+      }
     };
 
+    fetchData();
+  }, []);
 
+  const panelStyles = {
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    padding: '20px',
+    borderRadius: '10px',
+    margin: '20px',
+    boxShadow: '0px 0px 20px rgba(0, 0, 0, 0.3)',
+    color: 'white',
+  };
 
-    const produtos = [
-        {
-            nome: 'Café Especial Dópio',
-            imagem: `${process.env.PUBLIC_URL}/images/Products/Café Especial - Dópio.jpg`,
-            intensidade: 'Torra média',
-            preco: 35.99,
-        },{
-            nome: "Café Especial - Serra D'agua",
-            imagem: `${process.env.PUBLIC_URL}/images/Products/Café Especial - Serra D'agua.png`,
-            intensidade: 'Torra média',
-            preco: 25.99,
-        }
-    ]
+  if (isLoading) {
+    return <div>Carregando...</div>;
+  }
 
-    const listaProduto = produtos.map((produtos, index) => (
-        <div key={index}>
-            <img
-                src = {produtos.imagem}
-                alt = {produtos.nome}
-                style={{ width: '50%', height: 'auto', maxWidth: '200px'}}
-            />
-            <h3>{produtos.nome}</h3>
-            <p>{produtos.descricao}</p>
-            <p>Preço: R$</p>
-        </div>
-    ))
+  // Verifique se a lista de produtos está vazia
+  if (produtos.length === 0) {
+    return <div>Sem produtos disponíveis.</div>;
+  }
 
-    return (
-        <div style={panelStyles}>
-            <h2>Produtos em Destaque</h2>
-            {/* Adicione aqui a lógica para exibir os itens da sua loja */}
-            <div>
-                {listaProduto}
-            </div>
-        </div>
-    );
+  const listaProduto = produtos.map((produto, index) => (
+    <div key={index}>
+      <img
+        src={produto.imagem}
+        alt={produto.nome}
+        style={{ width: '50%', height: 'auto', maxWidth: '200px' }}
+      />
+      <h3>{produto.nome}</h3>
+      <p>{produto.descricao}</p>
+      <p>Preço: R$ {produto.preco.toFixed(2)}</p>
+    </div>
+  ));
+
+  return (
+    <div style={panelStyles}>
+      <h2>Produtos em Destaque</h2>
+      <div>{listaProduto}</div>
+    </div>
+  );
 };
 
 export default MainPanel;
