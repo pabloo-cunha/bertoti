@@ -3,7 +3,7 @@ package org.example.observer.entitie;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Estacao implements Observer{
+public class Estacao{
 
     private double pressao;
     private double temperatura;
@@ -13,13 +13,7 @@ public class Estacao implements Observer{
         observers.add(observer);
     }
 
-    public void notifyObservers(){
-        for(Observer observer : observers){
-            observer.update(this, this);
-        }
-    }
-    @Override
-    public void update(Observer pressao, Observer temperatura) {
+    public void notifyObserver(){}
 
-    }
+
 }
