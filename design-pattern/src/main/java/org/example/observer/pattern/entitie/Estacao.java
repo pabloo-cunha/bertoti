@@ -1,4 +1,4 @@
-package org.example.observer.entitie;
+package org.example.observer.pattern.entitie;
 
 import java.util.ArrayList;
 import java.util.List;

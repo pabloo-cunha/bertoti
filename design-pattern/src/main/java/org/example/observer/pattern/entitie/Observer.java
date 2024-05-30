@@ -1,4 +1,4 @@
-package org.example.observer.entitie;
+package org.example.observer.pattern.entitie;
 
 public interface Observer {
 

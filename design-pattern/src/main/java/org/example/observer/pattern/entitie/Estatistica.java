@@ -1,4 +1,4 @@
-package org.example.observer.entitie;
+package org.example.observer.pattern.entitie;
 
 public class Estatistica implements Observer{
     @Override
