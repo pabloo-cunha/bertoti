@@ -4,34 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc45ec1f-bc1e-4a44-acbf-8ea4b6c2f4f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observer/antipattern/entities/Categoria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observer/antipattern/entities/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/singleton/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/singleton/pattern/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/singleton/pattern/Job.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/singleton/pattern/Unity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/strategy/pattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/strategy/pattern/entities/armas/Adaga.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/strategy/pattern/entities/armas/Espada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/strategy/pattern/entities/personagens/Personagem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/strategy/pattern/entities/poderes/Guerreiro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/strategy/pattern/interfaces/ComportamentoSkills.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/strategy/pattern/interfaces/ComportamentosArma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/observer/entitie/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/observer/pattern/entitie/Dashboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/observer/entitie/Estacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/observer/pattern/entitie/Estacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/observer/entitie/Estatistica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/observer/pattern/entitie/Estatistica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/observer/entitie/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/observer/pattern/entitie/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/strategy/pattern/entitie/Character.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/strategy/pattern/entitie/MagicDefense.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/strategy/pattern/entitie/ShieldDefense.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/strategy/pattern/entitie/StaffAttack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/strategy/pattern/entitie/SwordAttack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/strategy/pattern/interfaces/AttackStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/strategy/pattern/interfaces/DefenseStrategy.java" beforeDir="false" />
-    </list>
+    <list default="true" id="cc45ec1f-bc1e-4a44-acbf-8ea4b6c2f4f9" name="Changes" comment="Strategy - Pattern" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -191,7 +164,7 @@
       <workItem from="1713225010434" duration="1905000" />
       <workItem from="1716333154852" duration="3562000" />
       <workItem from="1716853497739" duration="1388000" />
-      <workItem from="1717082674936" duration="5114000" />
+      <workItem from="1717082674936" duration="5861000" />
     </task>
     <task id="LOCAL-00001" summary="Design Pattern">
       <option name="closed" value="true" />
@@ -201,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708642327289</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Strategy - Pattern">
+      <option name="closed" value="true" />
+      <created>1717089215445</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717089215445</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +201,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Design Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Design Pattern" />
+    <MESSAGE value="Strategy - Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Strategy - Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

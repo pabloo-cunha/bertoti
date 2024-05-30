@@ -1,1 +1,3 @@
-![Strategy Pattern.png](Strategy%20Pattern.png)
+# UML - Strategy Pattern
+
+<img src="src/main/java/org/example/strategy/pattern/Strategy Pattern.png">
