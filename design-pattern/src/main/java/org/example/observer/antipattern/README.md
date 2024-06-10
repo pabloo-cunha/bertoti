@@ -1,3 +1,3 @@
 # ANTI PATTERN - OBSERVER
 
-![Anti Pattern - Observer.png](..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2FAnti%20Pattern%20-%20Observer.png)
+![Anti Pattern - Observer](https://github.com/pabloo-cunha/bertoti/assets/111435624/6f218888-28bf-4a78-9b22-fe5540a68379)
