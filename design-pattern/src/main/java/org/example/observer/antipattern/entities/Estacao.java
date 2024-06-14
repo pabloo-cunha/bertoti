@@ -2,7 +2,7 @@ package org.example.observer.antipattern.entities;
 
 import lombok.Data;
 
-//@Data
+@Data
 public class Estacao {
 
     private double temperatura;

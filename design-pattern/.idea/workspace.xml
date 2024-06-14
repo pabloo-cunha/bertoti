@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc45ec1f-bc1e-4a44-acbf-8ea4b6c2f4f9" name="Changes" comment="Observer Pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observer/antipattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observer/antipattern/entities/Dashboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observer/antipattern/entities/Estacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observer/antipattern/entities/Estatistica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observer/antipattern/entities/PrevisaoDoTempo.java" afterDir="false" />
+    <list default="true" id="cc45ec1f-bc1e-4a44-acbf-8ea4b6c2f4f9" name="Changes" comment="Observer Anti Pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/composite/pattern/Departamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/composite/pattern/Empresa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/composite/pattern/Funcionarios.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/observer/antipattern/entities/Categoria.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/observer/antipattern/entities/Produto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/composite/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/composite/pattern/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/composite/entitie/Aluno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/composite/entitie/Component.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/composite/entitie/Professor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/composite/entitie/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/observer/antipattern/entities/Estacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/observer/antipattern/entities/Estacao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -45,6 +47,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.org.example.Main.executor": "Run",
+    "Application.org.example.composite.pattern.Main.executor": "Run",
     "Application.org.example.observer.Main.executor": "Run",
     "Application.org.example.singleton.Main.executor": "Run",
     "Application.org.example.strategy.pattern2.Main.executor": "Run",
@@ -71,19 +74,7 @@
       <recent name="org.example.strategy.entitie" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Aplicacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="principal.Aplicacao" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="principal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.org.example.composite.pattern.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.observer.antipattern.Main" />
       <module name="design-pattern" />
@@ -103,6 +94,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.composite.pattern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.composite.pattern.Main" />
+      <module name="design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.composite.pattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.composite.pattern.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.org.example.observer.Main" />
         <item itemvalue="Application.org.example.singleton.Main" />
         <item itemvalue="Application.org.example.Main" />
-        <item itemvalue="Application.Aplicacao" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +181,9 @@
       <workItem from="1716853497739" duration="1388000" />
       <workItem from="1717082674936" duration="8770000" />
       <workItem from="1717177244613" duration="17082000" />
-      <workItem from="1718059273443" duration="948000" />
+      <workItem from="1718059273443" duration="2623000" />
+      <workItem from="1718147494729" duration="6000" />
+      <workItem from="1718327540928" duration="1692000" />
     </task>
     <task id="LOCAL-00001" summary="Design Pattern">
       <option name="closed" value="true" />
@@ -219,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717548981071</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Observer Anti Pattern">
+      <option name="closed" value="true" />
+      <created>1718060774077</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718060774077</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +255,8 @@
     <MESSAGE value="Strategy - Pattern" />
     <MESSAGE value="Strategy - UML" />
     <MESSAGE value="Observer Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Observer Pattern" />
+    <MESSAGE value="Observer Anti Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Observer Anti Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
