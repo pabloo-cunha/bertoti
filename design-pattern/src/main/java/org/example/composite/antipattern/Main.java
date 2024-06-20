@@ -17,6 +17,7 @@ public class Main {
         categoria1.addProduto(produto1);
         categoria1.addProduto(produto2);
         categoria2.addProduto(produto3);
+        categoria2.addProduto(produto4);
 
         mercado.addProduto(produto1);
         mercado.addProduto(produto2);

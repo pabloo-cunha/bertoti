@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc45ec1f-bc1e-4a44-acbf-8ea4b6c2f4f9" name="Changes" comment="Composite Pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/composite/antipattern/Categoria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/composite/antipattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/composite/antipattern/Mercado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/composite/antipattern/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="cc45ec1f-bc1e-4a44-acbf-8ea4b6c2f4f9" name="Changes" comment="Composite AntiPattern" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -181,7 +175,7 @@
       <workItem from="1718059273443" duration="2623000" />
       <workItem from="1718147494729" duration="6000" />
       <workItem from="1718327540928" duration="2271000" />
-      <workItem from="1718723967312" duration="3579000" />
+      <workItem from="1718723967312" duration="4008000" />
     </task>
     <task id="LOCAL-00001" summary="Design Pattern">
       <option name="closed" value="true" />
@@ -239,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718329610089</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Composite AntiPattern">
+      <option name="closed" value="true" />
+      <created>1718842783240</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718842783240</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,7 +265,8 @@
     <MESSAGE value="Observer Pattern" />
     <MESSAGE value="Observer Anti Pattern" />
     <MESSAGE value="Composite Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Composite Pattern" />
+    <MESSAGE value="Composite AntiPattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Composite AntiPattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
